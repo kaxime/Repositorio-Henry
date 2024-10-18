@@ -1,0 +1,17 @@
+
+*{
+   box-sizing: content-box;
+}
+
+
+header{
+    background-color:paleturquoise;
+    margin: 20px;
+    border:solid #e0f1ca 10px;
+    padding: 20px 40px;
+    
+} 
+ul{
+    list-style: none;
+
+}
