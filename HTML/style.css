@@ -2,7 +2,9 @@
 *{
    box-sizing: content-box;
 }
-
+body{
+    background-color: gray;
+}
 
 header{
     background-color:paleturquoise;
@@ -11,6 +13,13 @@ header{
     padding: 20px 40px;
     
 } 
+.gowun-dodum-regular {
+    font-family: "Gowun Dodum", sans-serif;
+    font-weight: 500;
+    font-style:initial;
+    font-size: 25px;
+}
+
 ul{
     list-style: none;
 
