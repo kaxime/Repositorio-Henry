@@ -1,0 +1,74 @@
+/* ============================
+   1. General Reset 
+   ============================ */
+/* Reseteo básico de todos los márgenes, rellenos y bordes */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: 0;
+}
+
+/* ============================
+   2. HTML5 Elements Reset
+   ============================ */
+/* Establecer comportamiento consistente en elementos HTML5 */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, main, menu, nav, section {
+    display: block;
+}
+
+/* ============================
+   3. Base Typography Reset
+   ============================ */
+/* Reset de fuentes y tamaños */
+body {
+    line-height: 1.5;
+    font-family: sans-serif;
+}
+
+/* Evitar que los encabezados tengan márgenes o tamaños predeterminados */
+h1, h2, h3, h4, h5, h6 {
+    font-size: 100%;
+    font-weight: normal;
+}
+
+/* ============================
+   4. Lists Reset
+   ============================ */
+/* Eliminar los estilos por defecto de listas */
+ol, ul {
+    list-style: none;
+}
+
+/* ============================
+   5. Blockquote and Quotes Reset
+   ============================ */
+/* Eliminar comillas automáticas de blockquotes y q */
+blockquote, q {
+    quotes: none;
+}
+
+blockquote::before, blockquote::after,
+q::before, q::after {
+    content: '';
+}
+
+/* ============================
+   6. Tables Reset
+   ============================ */
+/* Reset de tablas para evitar bordes y espacios predeterminados */
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/* ============================
+   7. Forms Reset
+   ============================ */
+/* Alinear los campos de formulario y eliminar estilos predeterminados */
+input, textarea, select, button {
+    font-family: inherit;
+    font-size: 100%;
+    line-height: 1.15;
+}

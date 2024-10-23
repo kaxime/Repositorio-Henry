@@ -2,15 +2,18 @@
 *{
    box-sizing: content-box;
 }
-body{
-    background-color: gray;
-}
 
-header{
-    background-color:paleturquoise;
-    margin: 20px;
-    border:solid #e0f1ca 10px;
-    padding: 20px 40px;
+/*body{
+    
+} */
+
+nav{
+    background-color:rgb(238, 175, 191);
+    
+    border: 2px solid #e0f1ca ;
+    width: 40vw;
+    margin: auto;
+    padding: 1em;
     
 } 
 .gowun-dodum-regular {
@@ -23,4 +26,7 @@ header{
 ul{
     list-style: none;
 
+}
+.diseños {
+    width: 350px ;
 }
