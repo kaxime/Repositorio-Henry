@@ -24,7 +24,7 @@ footer, header, hgroup, main, menu, nav, section {
 /* Reset de fuentes y tamaños */
 body {
     line-height: 1.5;
-    font-family: sans-serif;
+    
 }
 
 /* Evitar que los encabezados tengan márgenes o tamaños predeterminados */

@@ -1,32 +1,40 @@
 
-*{
-   box-sizing: content-box;
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f4f4f4;
+
+   
+   
 }
 
-/*body{
-    
-} */
 
-nav{
+/* menu de navegacion*/
+.header-nav {
     background-color:rgb(238, 175, 191);
-    
-    border: 2px solid #e0f1ca ;
-    width: 40vw;
-    margin: auto;
-    padding: 1em;
-    
+    border: 1px solid #a9e6b6 ;
+    margin: 10px;
+    padding-left: 0;
 } 
-.gowun-dodum-regular {
-    font-family: "Gowun Dodum", sans-serif;
+.header-nav__item {
+    display: inline-block;
+    
+}
+
+/* Titulos*/ 
+.title {
+    
     font-weight: 500;
     font-style:initial;
     font-size: 25px;
+   display: flex;
+   margin-bottom: 10px;
 }
 
-ul{
-    list-style: none;
+/*ul{
 
-}
+} */
+/*imagenes*/
+
 .diseños {
     width: 350px ;
 }
